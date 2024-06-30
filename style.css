@@ -1,0 +1,477 @@
+* {
+  margin: 0;
+}
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900 */
+/* 
+.inter-<uniquifier > {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+
+.gothic-a1-regular {
+  font-family: "Gothic A1", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cormorant-garamond-regular {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+/* HOME PAGE */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 32px;
+  padding-left: 135px;
+  padding-right: 135px;
+}
+
+.links-header {
+  color: #0b0b0b;
+}
+.nav-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 72px;
+  margin-left: 200px;
+  margin-right: 300px;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+}
+.logo {
+  margin-left: -24px;
+}
+.instagram-header {
+  margin-right: -16px;
+}
+#container {
+  background: #fff;
+  width: 1920px;
+  height: 1400px;
+}
+
+h3 {
+  font-family: "Gothic A1", sans-serif;
+  font-weight: 400;
+  letter-spacing: 3px;
+  font-style: normal;
+  font-size: 14px;
+  padding-bottom: 12px;
+  margin-top: 29px;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 54px;
+}
+
+.videomaker-arrow {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.videomaker-services {
+  display: flex;
+  align-items: right;
+  flex-direction: column;
+  justify-content: space-between;
+  /* padding-top: 56px; */
+}
+#hero-section {
+  /* display: flex;
+  flex-direction: row;
+  justify-content: flex-start; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin-left: 135px;
+  margin-right: 135px;
+  margin-bottom: 80px;
+  margin-top: 80px;
+}
+
+footer {
+  background: #0b0b0b;
+  color: white;
+  padding-top: 80px;
+
+  padding-left: 135px;
+  padding-right: 135px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.upper-line-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 200px;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.links-footer {
+  color: #989898;
+}
+.nav-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 38px;
+  margin-left: 300px;
+  margin-right: -800px;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  color: #989898;
+  padding-bottom: 74px;
+}
+
+.logo-bottom {
+  margin-left: -824px;
+}
+
+.bottom-line-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 80px;
+}
+
+.copyright {
+  margin-left: -824px;
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  text-transform: uppercase;
+  color: #636060;
+}
+
+.sidebar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 432px;
+  margin-right: -798px;
+}
+.email {
+  color: #d2d2d2;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+
+/* Gallery */
+.container-gallery {
+  background: #fff;
+}
+
+.gallery-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 80px;
+  /* gap: -24px; */
+}
+
+.images-and-video-row-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+  justify-content: space-between;
+  margin-left: 108px;
+  margin-right: 132px;
+  margin-top: 40px;
+  margin-bottom: 24px;
+}
+
+.images-and-video-row-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+  justify-content: space-between;
+  margin-left: 108px;
+  margin-right: 132px;
+
+  margin-bottom: 108px;
+}
+
+/* CONTACTS */
+
+#container-contacts {
+  width: 1920px;
+  height: 600px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding-top: 140px;
+  padding-bottom: 140px;
+  margin-left: 536px;
+  margin-right: 536px;
+}
+
+.email-location {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: -8px;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  color: #393939;
+}
+
+/* ABOUT ME */
+
+/* #about-oksana-container {
+  background: #fffcf6;
+} */
+.main-content-about-me {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 164px;
+  justify-content: space-between;
+  margin-right: 132px;
+  margin-left: 108px;
+  padding-top: 80px;
+  padding-bottom: 204px;
+}
+
+.content-about-oksana {
+  padding-top: 32px;
+  gap: 30px;
+}
+
+.text-about-oksana {
+  padding-top: 32px;
+  color: #232323;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  line-height: 1.5;
+}
+
+.oksana-signatory {
+  padding-top: 84px;
+  margin-left: 573px;
+}
+.btn-know-more {
+  padding-top: 84px;
+}
+
+/* Fashion Stylist page */
+
+h2 {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 48px;
+}
+.fashion-stylist-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  /* gap: -24px; */
+}
+
+.header-text {
+  text-align: center;
+  color: #232323;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  line-height: 2;
+  padding-bottom: 80px;
+}
+
+.header-image {
+  margin-left: 100px;
+  /* margin-right: 132px; */
+  padding-bottom: 80px;
+}
+
+.stylist-first-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* gap: 164px; */
+  justify-content: space-between;
+  /* margin-right: 132px; */
+  margin-left: 108px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  gap: 24px;
+  margin-left: -40px;
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  line-height: 1.2;
+  list-style-type: none;
+}
+
+.list-and-title {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding-right: 260px;
+  /* gap: -40px; */
+}
+
+.title-stylist-first-row {
+  padding-bottom: 40px;
+}
+
+.first-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 16px;
+}
+
+.numbers-img {
+  margin-top: 8px;
+}
+
+/* Fashion Stylist page */
+.stylist-second-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 164px;
+  justify-content: space-between;
+  margin-right: 132px;
+  margin-left: 108px;
+  padding-top: 80px;
+  padding-bottom: 108px;
+}
+
+.list-another-color {
+  color: #757575;
+  font-size: 16px;
+}
+
+.video-maker-first-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* gap: 164px; */
+  justify-content: space-between;
+
+  margin-left: 108px;
+  padding-top: 80px;
+  padding-bottom: 108px;
+}
+
+.video-maker-title {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-between;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  /* gap: -24px; */
+}
+
+.text-video-maker {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  gap: 18px;
+  margin-left: -40px;
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  line-height: 1.2;
+  list-style-type: none;
+}
+
+.list-and-title-video-maker {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-top: -80px;
+  /* To do closer to the image */
+  padding-right: 250px;
+}
+
+.button {
+  display: flex;
+  margin-top: -200px;
+  margin-left: 800px;
+  margin-bottom: 108px;
+}
+
+.button-about-me {
+  display: flex;
+  margin-top: -324px;
+  margin-left: 680px;
+  margin-bottom: 108px;
+}
+
+.button-fashion-stylist {
+  display: flex;
+  margin-top: -310px;
+  margin-left: 790px;
+  margin-bottom: 108px;
+}
